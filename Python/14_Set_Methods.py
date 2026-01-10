@@ -1,3 +1,5 @@
+# This file demonstrates various methods available for sets in Python.
+
 # Create a set with initial items
 items = {"apple ", "banana", "tomato"}
 # Add a single item to the set
@@ -9,7 +11,7 @@ print(items)
 items.update({"mango", "Peach"})
 # Print the set after updating
 print(items)
-# Remove a specific item (raises error if not found)
+# Remove a specific item (raises KeyError if not found)
 items.remove("banana")
 # Print the set after removing
 print(items)
@@ -23,7 +25,7 @@ a = items.pop()
 # Print the popped item
 print(a)
 
-# Define two sets for operations
+# Define two sets for set operations
 b = {1, 2, 3, 6}
 c = {4, 3, 5, 6}
 # Compute the union of sets b and c

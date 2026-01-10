@@ -1,17 +1,18 @@
-# Dictionary Methods Demonstration
+# This file demonstrates various methods available for dictionaries in Python.
 
-student={
+# Create a dictionary with student information
+student = {
     "name": "salim",
     "City": "Delhi",
-   "Company" : "GTM",
+    "Company": "GTM",
 }
 
-# Remove the 'name' key from the dictionary
+# Remove the 'name' key from the dictionary using pop()
 student.pop("name")
 print(student)
 
 # Add a new key 'Calls' with value '12th' to the dictionary
-student["Calls"]="12th"
+student["Calls"] = "12th"
 print(student)
 
 # Remove the last item from the dictionary using popitem()
@@ -24,11 +25,11 @@ del student["City"]
 # Clear all items from the dictionary
 student.clear()
 
-# Print the keys of the dictionary
-print(student.keys ())
-# Print the values of the dictionary
+# Print the keys of the dictionary (empty after clear)
+print(student.keys())
+# Print the values of the dictionary (empty after clear)
 print(student.values())
-# Print the items of the dictionary
-print(student.items ())
-# Print the entire dictionary
+# Print the items of the dictionary (empty after clear)
+print(student.items())
+# Print the entire dictionary (empty after clear)
 print(student)
